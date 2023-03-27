@@ -1,0 +1,45 @@
+html,
+body {
+	margin: 0;
+}
+#startBtn {
+	background-color: rgb(0, 255, 0);
+}
+#stopBtn {
+	background-color: rgb(255, 0, 0);
+}
+#resetBtn {
+	background-color: rgb(242, 255, 0);
+}
+
+input {
+	width: 8vw;
+	font-size: 4vw;
+}
+label {
+	font-size: 4vw;
+}
+button {
+	width: 30%;
+	font-size: 8vw;
+}
+
+#content {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	height: 100vh;
+}
+
+#buttons {
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#timer {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
